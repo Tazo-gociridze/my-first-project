@@ -1,0 +1,978 @@
+
+.gverdi-1{
+    width: 100%;
+   display: block;
+}
+
+body{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*axali teqnologiebis gamosvlistanave, es saiti iqneba lamazi yvelastvis, rogorc qalbatonebistvis aseve kacebistvis! (chemi nervebis xarjze ratqmaunda)*/
+
+/* nervuli ujredebi rogorc vicit ar regenerirdeba amitomac madlobis gamoxatva shegidzliat. sabanko-barati: 0056-5789-7237-8999. ;) ;) ;) 2-tetri mainc*/
+
+.dark{
+    margin-left: 10vh;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.dark-mode{
+    margin-top: 15px;
+    margin-left: 1vh;
+}
+
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: none;
+}
+.check{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 20px;
+    background: #1a1919;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: ease-in 0.5s;
+}
+
+input[type="checkbox"]:checked ~ .check{
+    background: rgb(253, 253, 253);
+    box-shadow: 0 0 0 10400px rgba(18, 18, 18, 0.315);
+}
+.check:before{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+input[type="checkbox"]:checked ~ .check::before{
+    transform: translateX(20px);
+    background-color: rgb(99, 27, 121);
+}
+
+/* headeri daiwyo au au au  */
+
+.page-1{
+    background-color: rgba(66, 63, 63, 0.233);
+    width: 100%;
+    height: 75px;
+    display: flex;
+    margin-top: -25px;
+    font-family: 'Lato', sans-serif;
+}
+.div-header {
+    display: flex;
+    position: absolute;
+    margin-left: 20%;
+    padding-top: 25px;
+    color: rgba(46, 42, 59, 0.692);
+}
+
+.icon-child{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(182, 162, 170, 0.911);
+    margin-left: 10px;
+    border-radius: 50%;
+
+}
+
+.icon{
+    padding-top: 35px;
+    margin-left: 80%;
+    display: flex;
+    color: black;
+
+    
+}
+.italik{
+ position: absolute;
+ top: 7px;
+ left: 7px;
+ color: rgba(49, 48, 45, 0.932);
+}
+
+.icon-child:hover{
+     background-color: white;
+     transition: 0.7s;
+}
+.italik:hover{
+    color: rgb(15, 3, 187);
+    transition: 0.7s;
+}
+
+/* headeri-damtavrda. dzalian advili iyo ;) */
+
+/* satauri daiwyo. kargia rom daiwyo */
+
+.parent{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.gtcompany{
+    width: 20px;
+    display: flex;
+    font-family: var(--font);
+    font-size: 30px;
+    margin-left: 20%;
+}
+
+.color-1{
+    color: var(--color);
+    font-size: 45px;
+    margin-top: 18px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.color-2{
+    font-size: 37px;
+    color: rgba(32, 32, 32, 0.87);
+}
+
+.img{
+    width: 30px;
+    height: 30px;
+    background-size:cover;
+    margin-top: 35px;
+    
+}
+.gt-icon-2{
+    width: 30px;
+    height: 40px;
+}
+
+
+.child{
+    
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  margin-left: 30px;
+  
+}
+
+.gt-icon{
+    display: flex;
+    margin-left: 27%;
+}
+.location{
+  
+}
+
+
+.gt-icon-1{
+   background-image: url(../proeqti-2/photo.png/icon-clock-32x32.png);
+}
+.gt-icon-2{
+    background-image: url(../proeqti-2/photo.png/icon-map-marker-25x33.png);
+}
+.gt-icon-3{
+    background-image: url(./photo.png/icon-phone-28x29.png);
+}
+.parent{
+    display: flex;
+}
+
+.information{
+    margin-left: 15px;
+    height: 10px;
+}
+
+.bold-text{
+    font-size: 16px;
+    
+}
+.italik-text{
+    font-size: var(--main-font-size);
+    color: rgba(158, 152, 152, 0.918);
+}
+
+/* satauri morcha ukve davigale */
+
+/* link-boxi daiwyo magram unda gavagrdzelo paraskevamde maq dro :((  */
+
+.link-box{
+    width: 100%;
+    height: 65px;
+    background-color: var(--big-box);
+    font-size: var(--main-font-size);
+    font-family: var(--font);
+}
+
+.link-box-child-1{
+    padding-top: 7px;
+    margin-left: auto;
+    margin-left: 18%;
+}
+
+.www{
+    color: rgba(255, 255, 255, 0.87);
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.www:hover{
+    color: var(--color);
+    transition: 0.4s;
+}
+
+.xd{
+    display: flex;
+}
+.home{
+    color: var(--color);
+}
+
+.gamadidebeli{
+    background-image: url(./photo.png/gamadidebeli.png);
+    width: 50px;
+    height: 50px;
+    margin-top: -50px;
+    margin-left: 80%;
+    color: white;
+    background-size: cover;
+}
+
+/* link-boxi damtavrda. xval gavagrdzeleb */
+
+
+/* slide-boxi daiwyo. axali dzalebit da motivaciit, vagrdzeleb */
+
+.slide-photos{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height:600px ;
+    background-image: url(./photo/qalbatoni.jpg);
+    background-size: cover;
+    margin-top: -100px;
+    position: relative;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    background-image: url(./photo/roma\ bidzia-2.jpg);
+    background-size: cover;
+   animation-name: slider;
+   animation-duration: 25s;
+   animation-iteration-count: infinite;
+   position: relative;
+   margin-top: -12.1%;
+}
+@keyframes slider{
+
+     20%{
+            transform: translateY(50px);
+            transform: translateX(100px);
+         }
+
+        40%{
+            width: 0px;
+            height: 0px;
+            font-size: 0px;
+            transform: translateX(70vh);
+        }
+        
+             60%{
+                transform: translateX(0px);
+                transform: translateX(0px);
+             }
+
+        80%{
+            width: 100%;
+            height: 100%;
+        }
+
+        90%{
+            transform:translateX(0px)
+       }
+}  
+
+.button-box{
+    
+}
+
+.slide-div{
+     margin-top: 100px;
+}
+
+.slide-box{
+    width: 30%;
+    font-size: 30px;
+    color: rgba(32, 31, 31, 0.884);
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    
+}
+
+.pop{
+    width: 30%;
+    margin-left: 9px;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    border-radius: 4px;
+}
+
+.button-1{
+    color: white;
+    background-color: var(--color);
+    border: 2px solid var(--color);
+} 
+.button-2{
+    color: rgb(39, 37, 37);
+    background-color: white;
+    border: 2px solid rgba(102, 97, 97, 0.808);
+    border-radius: 4px;
+} 
+
+@media (max-width:1200px){
+
+    .border-box{
+        font-size: 14px;
+    }
+
+    .names{
+        font-size: 14px;
+    }
+       .slide-box{
+           margin-top: -20vh;
+       }
+       .what-we-do{
+           margin-top: 20vh;
+       }
+
+       .grandpa{
+           margin-left: -20vh;
+       }
+       .saxelebi{
+           margin-left: -10%;
+       }
+       .about-us-parent{
+           margin-left: -30vh;
+       }
+       .parent{
+           margin-left: -30vh;
+       }
+
+       .hehe{
+           margin-left: -10vh;
+           font-size: 15px;
+       }
+       .navigation{
+           font-size: 15px;
+       }
+}
+
+.button-1:hover{
+    color: var(--color);
+    background-color: white;
+    border: 1px solid var(--best-color);
+    transition: all 0.5s;
+}
+
+.button-2:hover{
+    color: white;
+    background-color: var(--best-color);
+    transition: all 0.5s;
+}
+
+.slide-text-2{
+    width: 100%;
+    font-size: var(--font);
+    font-size: 20px;
+    color: rgb(255, 236, 236);
+    width: 24%;
+    animation-name: text-2;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    background-image: url(./photo/avrora-vzryv-sinij.jpg);
+    display: flex;
+}
+
+@keyframes text-2{
+      20%{
+             transform: translateX(0px);
+      }
+
+      40%{
+          font-size: 0px;
+      }
+
+     80%{
+         font-size: 20px;
+     }
+     
+     100%{
+
+     }
+}
+
+.gt{
+    color: rgba(187, 19, 19, 0.76);
+}
+
+/* slide-boxi damtavrda. rac me magaze viwvale */
+
+/* 4-box daiwyo da imedia male damtavrdeba */
+
+.info-parent{
+    height: 15%;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.info-text{
+    font-family: var(--font);
+    font-size: 21px;
+    color: rgb(53, 49, 49);
+}
+
+.border-box{
+    color: var(--best-color);
+   height: 350px;
+   width: 20%;
+   text-align: center;
+   margin-left: 50px;
+}
+
+.border-box:hover{
+    transition: 0.5s;
+    box-shadow: 3px 3px 5px 3px var(--best-color);
+}
+
+.info-text-p{
+    font-family: var(--font);
+}
+
+.dollar{
+    position: relative;
+    margin: auto;
+    width: 75px;
+    height: 70px;
+    color: var(--color);
+    margin-top: -20px;
+    
+}
+
+.dollar-1{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.dollar-2{
+    position: absolute;
+    top: 10px;
+    left: 24px;
+}
+
+.margin-top{
+    margin-top: 50px;
+}
+
+.little-div{
+    width: 10px;
+    height: 10px;
+    border: 2px solid;
+    
+}
+
+.little-div-1{
+    position: absolute;
+    top: -12px;
+    left: 41px;
+    border-left: white;
+    border-bottom: white;
+    
+}
+.little-div-2{
+    position: absolute;
+    top: 49px;
+    left: 41px;
+    border-left: white;
+    border-top: white;
+}
+.little-div-3{
+    position: absolute;
+    top: -11px;
+    left: -26px;
+    border-right: white;
+    border-bottom: white;
+}
+.little-div-4{
+    position: absolute;
+    top: 49px;
+    left: -26px;
+    border-top: white;
+    border-right: white;
+}
+.a-link{
+    position: absolute;
+    left: -6px;
+}
+
+/* 4-box. dzlivs ar movrchi */
+
+/* what we do daiwyo. es advilia */
+
+.what-we-do{
+    background-image: url(./photo/0cea6fabe4d9d5256e0d1b2474927732.jpg);
+    background-size: cover;
+     width: 100%;
+     height: 200px;
+     
+}
+.what-we-do-div{
+    color: rgba(97, 87, 87, 0.788);
+    margin-left: 15%;
+    margin-top: 4%;
+     font-family: var(--font);
+     display: flex;
+     padding-top: 50px;
+     width: 80%;
+}
+
+.what-we{
+    border: 1px solid rgb(0, 0, 0);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    width: 40vh;
+    
+}
+
+.what-we-do-h1{
+    font-size: 39px;
+    color: var(--best-color);
+}
+
+.what-we-do-p{
+         font-size: 25px;
+         margin-top: 3.5vh;
+         margin-left: 2%;
+         color: rgba(39, 35, 35, 0.849)
+}
+
+#{
+
+}
+
+.what-we-do-button{
+    background-color: var(--color);
+    color: white;
+    font-size: var(--font);
+    font-size: 16px;
+    position: relative;
+    width: 18vh;
+    height: 50px;
+    margin-top: 2.5vh;
+    margin-left: 3%;
+    border: none;
+}
+.what-we-do-button:hover{
+    transition: all 0.8s;
+    background-color: white;
+    color: var(--color);
+}
+
+a{
+    text-decoration: none;
+}
+/* .what-we-do damtavrda */
+
+/* .about-us daiwyo/////////////////////////////////////////// */
+.about-us{
+    color: var(--best-color);
+    margin-top: 30px;
+    margin-left: 45%;
+    height: 20px;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.about-us-parent{
+    color: rgb(99, 95, 95);
+    margin-left: 10%;
+    margin-top: 100px;
+    display: flex;
+    width: 70%;
+    height: 40%;
+    font-family: 'Quicksand', sans-serif;
+}
+.about-us-parent-2{
+    margin-left: 20%;
+}
+
+.child-box{
+    display: flex;
+    width: 100%;
+    
+}
+
+.about-us-parent-3{
+    width: 50%;
+}
+
+.child-1{
+    text-align: center;
+    border: 1px solid rgba(73, 71, 71, 0.856);
+    margin-left: -0.8px;
+    font-size: 20px;
+    width: 19%;
+    height: 55px;
+    background-color: white;
+    color: rgb(41, 40, 40);
+}
+
+.child-1:hover{
+    color: white;
+    background-color: var(--color);
+    transition: 0.5s;
+}
+
+.abuot-us-text{
+    width: 60%;
+    font-size: 14px;
+    
+}
+
+.child-2{
+    text-align: center;
+    font-size: 32px;
+    width: 19%;
+    height: 100px;
+    color: var(--color);
+    
+}
+
+.lines{
+    border: 1px solid rgba(56, 53, 53, 0.801);
+    border-bottom: none;
+    border-top: none;
+}
+
+.about-us-div{
+    display: flex;
+}
+.cifrebi{
+    margin-top: 10px;
+}
+
+.about-us-parent-3{
+    margin-left: -12%;
+}
+.child-box-2-text-p{
+    font-size: 14px;
+}
+.child-box-2-text-a{
+   color: rgb(46, 43, 43);
+}
+
+.child-box-2-button{
+    border: 1px solid rgb(51, 50, 50);
+    width: 140px;
+    height: 50px;
+    border-radius: 6px;
+    color: var(--color);
+    font-size: 18px;
+    background-color: white;
+}
+
+.child-box-2-button:hover{
+      color: white;
+      background-color: var(--color);
+      transition: 0.5s;
+}
+
+.child-box-2-text-a:hover{
+    color: var(--color);
+    transition: 0.5s;
+}
+/* about-us damtavrda ////////////////////////////////////////////// */
+
+/* calculator daiwyo ////////////////////////////////////////////////// */
+
+.display-page{
+    width: 80%;
+}
+
+.grandpa{
+    display: flex;
+}
+
+.loan-calculator{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(88, 58, 58);
+    font-size: 24px;
+    margin-left: 3vh;
+    width: 70%;
+ 
+}
+.loan-calculator:hover{
+    font-family: 'Bonheur Royale', cursive;
+   color: brown;
+   font-size: 22px;
+   
+}
+.pika{
+    margin-left: 3vh;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+}
+
+.calculator{
+    width: 37%;
+    height: 700px;
+    margin-left: 40vh;
+    box-shadow: 5px 5px 20px rgb(100, 93, 93);
+    margin-top: 200px;
+                 
+}
+
+.calculator:hover{
+    
+}
+.display{
+    display: flex;
+}
+
+.registration{
+    width: 50%;
+}
+
+.registration-2{
+    width: 50%;
+}
+
+.calculating{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    margin-left: 3vh;
+}
+.area{
+    width: 24vh;
+    height: 4vh;
+    margin-left: 3vh;
+    border: none;
+    background-color: rgb(187, 221, 223);
+}
+.calculating:hover{
+   color: rgb(36, 0, 167);
+}
+
+.beautifull{
+    width: 35%;
+    height: 700px;
+    background-image: url(./photo/home-2-552x654.png);
+    background-size: cover;
+    margin-top: 200px;
+
+}
+
+.saxelebi{
+    width: 80%;
+    margin-left: 35vh;
+    margin-top: 30vh;
+    height: 70vh;   
+}
+
+.names{
+    color: var(--best-color);
+    padding: 0px,15px;
+    width: 45%;
+   height: 50vh;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 1px 1px 3px 1px  rgb(85, 96, 109);
+    margin-left: 7vh;
+}
+
+.names:hover{
+    color: brown;
+}
+
+.hibro{
+    width: 7vh;
+    height: 7vh;
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.watson{ 
+    background-image: url(./photo/adam.jpg);
+}
+.smith{
+background-image: url(./photo/louise.jpg);
+}
+.walsh{
+background-image: url(./photo/jack.jpg);
+}
+
+.testimonials{
+    color: rgba(211, 81, 81, 0.589);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 43px;
+    margin-left: 33%;
+    margin-top: -10%;
+
+}
+
+.disflex{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    margin-top: 10vh;
+}
+
+/* .footeri daiwyo///////////////////////////////////////////////////////////// */
+
+footer{
+    width: 100%;
+    background-color: rgba(63, 62, 62, 0.781);
+    font-family: var(--font);
+    height: 400px;
+}
+
+.footer-1{
+    color: var(--color);
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.footer-2{
+    font-size: 38px;
+    color: rgba(32, 32, 32, 0.87);
+}
+
+.footer-3{
+    color: brown;
+    font-size: 30px;
+}
+
+.footer-div-1{
+    color: white;
+    width: 15%;
+    margin-left: 10%;
+}
+
+.footer-div-1-h3{
+    display: flex;
+}
+
+.footer-link-div{
+    display: flex;
+}
+.footer-icon{
+    margin-top: 10px;
+}
+
+
+.footer-link-box{
+    width: 5%;
+    color: rgba(41, 39, 39, 0.692);
+}
+
+.navigation{
+    font-size: 27px;
+     color: white;
+     margin-left: 10px;
+}
+
+.footer-link-box-1{
+    color: rgba(41, 39, 39, 0.692);
+    margin-left: 140px;
+    margin-top: -13vh;
+}
+
+.footer-link-box-parent{
+    display: flex;
+}
+
+.footeris-diviko{
+    margin-left: 50px;
+}
+
+.footer-link-box-div{
+    display: flex;
+}
+
+.contact-info{
+    
+}
+
+.footer-link-box-parent-2{
+  
+}
+
+.footer-link-box-2-a{
+    color: brown;
+    margin-left: 19px;
+}
+
+.footer-box-3-parent-2{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.footer-parent{
+    margin-top: 4%;
+    width: 80%;
+    display: flex;
+    margin-left: 50px;
+}
+
+.footer-registration{
+    margin-left: 5%;
+}
+
+.reg{
+    border-radius: 5px;
+    border: none;
+}
+
+.registration-button{
+    height: 39px;
+}
+
+.reg-button{
+    
+    height: 41px;
+    margin-left: -7px;
+    background-color: var(--color);
+}
+
+.reg-button:hover{
+    background-color: rgb(0, 0, 0);
+    color: var(--color);
+    transition: 0.5s;
+}
+
+.hehe{
+    margin-left: 10%;
+}
+
+/* როდესაც საიტი დაამთავრე თავდაჯერებულობა დაამყარე */
+
+/* (გავედი კოლეჯიიდან ლექსები ვწერო) ;) */
